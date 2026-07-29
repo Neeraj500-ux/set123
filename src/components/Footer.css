@@ -1,0 +1,33 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding: 28px 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--color-ink-900);
+}
+
+.footer__logo-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.footer__copy {
+  font-size: 0.85rem;
+  color: var(--color-ink-500);
+}
